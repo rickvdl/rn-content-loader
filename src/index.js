@@ -102,9 +102,11 @@ class ContentLoader extends Component {
     });
   }
   render() {
+    const { height } = this.props
+
     return (
-      <View style={{ marginBottom: 25 }}>
-        <AnimatedSvg width={width - 20} height={300}>
+      <View>
+        <AnimatedSvg width={width} height={height}>
           <Defs>
             <LinearGradient
               id="grad"
@@ -137,8 +139,8 @@ class ContentLoader extends Component {
           <Rect
             x="0"
             y="0"
-            height={300}
-            width={width - 20}
+            height={height}
+            width={width}
             fill="url(#grad)"
             clipPath="url(#clip)"
           />
