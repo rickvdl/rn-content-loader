@@ -1,6 +1,6 @@
 {
   "name": "rn-content-loader",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A react native content loader without expo",
   "repository": {
     "type": "git",
@@ -19,8 +19,8 @@
   ],
   "peerDependencies": {
     "react": "16.5.0",
-    "react-native": "0.57.1",
-    "react-native-svg": "^7.0.3",
+    "react-native": "0.57.2",
+    "react-native-svg": "^8.0.8",
     "prop-types": "^15.6.2"
   },
   "dependencies": {
